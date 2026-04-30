@@ -1,0 +1,30 @@
+# Secrets — DO NOT COMMIT
+.env
+.env.*
+*.pem
+*.key
+
+# Vendored / external project (1.8 GB, not part of this repo)
+openmrs-hospital/
+
+# Runtime / generated state
+qdrant_data/
+out/
+hipaa_dashboard/backend/uploads/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Editor / tooling
+.vscode/
+.idea/
+.claude/
