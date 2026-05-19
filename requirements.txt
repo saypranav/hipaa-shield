@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+python-multipart
+google-generativeai
+qdrant-client
+FlagEmbedding
+pypdf
