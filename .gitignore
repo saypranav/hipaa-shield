@@ -7,6 +7,9 @@
 # Vendored / external project (1.8 GB, not part of this repo)
 openmrs-hospital/
 
+# Archive files
+*.zip
+
 # Runtime / generated state
 qdrant_data/
 out/
@@ -28,3 +31,6 @@ env/
 .vscode/
 .idea/
 .claude/
+*.swp
+*.swo
+*~
